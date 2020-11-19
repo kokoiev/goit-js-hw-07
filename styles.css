@@ -1,0 +1,14 @@
+.js-list {
+  width: 1600px;
+  display: flex;
+  justify-content: space-around;
+}
+.js-li {
+  width: 250px;
+  height: 250px;
+  list-style: none;
+}
+.js-image {
+  display: inline-block;
+  width: 100%;
+}
