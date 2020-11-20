@@ -4,11 +4,24 @@
   justify-content: space-around;
 }
 .js-li {
-  width: 250px;
+  display: flex;
+  align-items: center;
+  width: max-content;
   height: 250px;
   list-style: none;
 }
 .js-image {
   display: inline-block;
-  width: 100%;
+  height: 100%;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input_valid {
+  border-color: #4caf50;
+}
+
+#validation-input_invalid {
+  border-color: #f44336;
 }
